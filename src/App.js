@@ -235,8 +235,15 @@ const Portfolio = () => {
               {
                 title: "Authentication System with Firebase (React + OTP)",
                 description: "A React app with Firebase authentication using phone number and OTP. Built with React and Firebase. Features OTP login, validation, and user feedback.",
-                tech: "React, Firebase, Integration of REST APIs, Authentication",
+                tech: "React, Razorpay payment, Integration of REST APIs, Authentication",
                 github: null,
+                live: "#"
+              },
+              {
+                title: "Payment Gateway Integration (Food Ordering App)",
+                description: "Developed a Food Ordering Web Application featuring Razorpay Payment Gateway integration, allowing users to make secure transactions via UPI, cards, wallets, and net banking. The project was successfully tested using Razorpay Test Mode.",
+                tech: "React, Firebase, Integration of REST APIs, Authentication",
+                github: "https://vignesh6381.github.io/razorpay-payment-gateway/",
                 live: "#"
               }
             ].map((project, index) => (
