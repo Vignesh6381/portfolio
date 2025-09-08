@@ -226,9 +226,16 @@ const Portfolio = () => {
                 live: null
               },
               {
-                title: "Outdoor Adventures",
-                description: "WordPress website for an adventure tourism agency with dynamic pages and a visual-focused design using Elementor.",
-                tech: "WordPress, Elementor",
+                title: "Recipe Explorer — React, Axios, Hooks",
+                description: "A React app to search and view recipes using the Spoonacular API. Built with React, Axios, and Hooks. Features search, pagination, and detailed views.",
+                tech: "React, REST API, JavaScript, Bootstrap",
+                github: null,
+                live: "#"
+              },
+              {
+                title: "Authentication System with Firebase (React + OTP)",
+                description: "A React app with Firebase authentication using phone number and OTP. Built with React and Firebase. Features OTP login, validation, and user feedback.",
+                tech: "React, Firebase, Integration of REST APIs, Authentication",
                 github: null,
                 live: "#"
               }
