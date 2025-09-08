@@ -37,7 +37,7 @@ const Portfolio = () => {
             <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Vignesh B
             </h1>
-            
+
             {/* Desktop Menu */}
             <ul className="hidden md:flex space-x-8">
               {['about', 'education', 'skills', 'projects', 'certificates', 'resume', 'contact'].map((item) => (
@@ -119,11 +119,11 @@ const Portfolio = () => {
               <div className="w-80 h-80 mx-auto bg-gradient-to-r from-purple-500 to-pink-500 rounded-full p-1">
                 <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center">
                   <div className="w-full h-full bg-gray-800 rounded-full flex items-center justify-center overflow-hidden">
-                    <img 
-              src={photo} 
-              alt="Portrait of Vignesh B" 
-              className="w-72 h-72 object-cover rounded-full"
-            />
+                    <img
+                      src={photo}
+                      alt="Portrait of Vignesh B"
+                      className="w-72 h-72 object-cover rounded-full"
+                    />
                   </div>
                 </div>
               </div>
@@ -303,14 +303,14 @@ const Portfolio = () => {
             Resume
           </h2>
           <a
-            href="resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center space-x-3 bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform text-lg"
+            href="/resume.pdf"
+            download="Vignesh_Balamurugan_Resume.pdf"
+            className="inline-flex items-center space-x-3 bg-gradient-to-r from-purple-600 to-pink-600 px-8 py-4 rounded-lg text-white font-medium hover:opacity-90 transition"
           >
             <Download size={20} />
             <span>Download My Resume</span>
           </a>
+
         </div>
       </section>
 
@@ -320,7 +320,7 @@ const Portfolio = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Contact Me
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
               <h3 className="text-2xl font-bold mb-8">Get In Touch</h3>
