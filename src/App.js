@@ -243,8 +243,8 @@ const Portfolio = () => {
                 title: "Payment Gateway Integration (Food Ordering App)",
                 description: "Developed a Food Ordering Web Application featuring Razorpay Payment Gateway integration, allowing users to make secure transactions via UPI, cards, wallets, and net banking. The project was successfully tested using Razorpay Test Mode.",
                 tech: "React, Firebase, Integration of REST APIs, Authentication",
-                github: "https://vignesh6381.github.io/razorpay-payment-gateway/",
-                live: "#"
+                github: "https://github.com/Vignesh6381/razorpay-payment-gateway",
+                live: "https://vignesh6381.github.io/razorpay-payment-gateway/"
               }
             ].map((project, index) => (
               <div key={index} className="bg-gradient-to-br from-purple-900/50 to-pink-900/50 rounded-xl p-6 backdrop-blur-sm border border-purple-500/20 hover:scale-105 transition-transform">
